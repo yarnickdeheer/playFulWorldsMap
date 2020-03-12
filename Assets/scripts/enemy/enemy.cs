@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class enemy : MonoBehaviour
 
-   
+
+public class enemy : MonoBehaviour
 {
+    [SerializeField] Vector3 Enemypos;
+    [SerializeField] Vector3 EnemyRot; 
     private int health = 10;
     public TextMesh text;
     // Start is called before the first frame update
