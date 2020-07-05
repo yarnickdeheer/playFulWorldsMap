@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SceneVersionSelect : MonoBehaviour
 {
     
-    float time = 20;
+    float time = 100;
     Text Ttext;
     int GameState;
     GameObject EscapeT;
