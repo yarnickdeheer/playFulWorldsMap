@@ -10,6 +10,9 @@ TagManager:
   - waterelement
   - voidelement
   - bullet
+  - Enemy
+  - minimap
+  - floor
   layers:
   - Default
   - TransparentFX
@@ -19,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - minimap
+  - map
   - 
   - 
   - 

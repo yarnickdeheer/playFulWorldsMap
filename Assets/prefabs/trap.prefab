@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 0}
+  EscapeT: {fileID: 0}
 --- !u!65 &5289997470469592913
 BoxCollider:
   m_ObjectHideFlags: 0

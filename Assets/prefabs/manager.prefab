@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5344204596010197603}
   - component: {fileID: 5344204596010197602}
   - component: {fileID: 5344204596010197604}
+  - component: {fileID: 2105596588}
   m_Layer: 0
   m_Name: manager
   m_TagString: Untagged
@@ -59,3 +60,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 0}
+--- !u!114 &2105596588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344204596010197601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31019041caf65424a921eca329e30aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 8829704056743346952, guid: 7f6bce36f16bd214db146175fa584230, type: 3}
+  enemys: []
+  spawnpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
